@@ -5,7 +5,7 @@
     android:id="@+id/RelativeLayout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="5dp">
+    android:layout_margin="10dp">
 
     <ImageView
         android:id="@+id/ivProfileImage"
@@ -17,19 +17,43 @@
         android:id="@+id/tvScreenName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_toEndOf="@+id/ivProfileImage"
+        android:layout_marginStart="4dp"
+        android:layout_toEndOf="@+id/tvName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#939292"
         android:textSize="14sp"
-        tools:text="Carlessss" />
+        tools:text="@Carlessss" />
 
     <TextView
         android:id="@+id/tvBody"
-        android:layout_width="wrap_content"
+        android:layout_width="290dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvScreenName"
-        android:layout_marginStart="5dp"
+        android:layout_marginStart="7dp"
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@+id/ivProfileImage"
-        android:textSize="14sp"
+        android:textColor="#424141"
+        android:textSize="15sp"
         tools:text=" Like i totally never get anything good from the nightmarket" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:textColor="#939292"
+        tools:text="12:12" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_toEndOf="@+id/ivProfileImage"
+        android:textColor="#3C3C3C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="Carelesss" />
+
 </RelativeLayout>
