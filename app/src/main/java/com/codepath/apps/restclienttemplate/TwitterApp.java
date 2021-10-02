@@ -20,6 +20,7 @@ public class TwitterApp extends Application {
 
     MyDatabase myDatabase;
 
+
     @Override
     public void onCreate() {
         super.onCreate();
