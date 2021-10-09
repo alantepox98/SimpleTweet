@@ -5,5 +5,9 @@
     <string name="login_label">Log in</string>
     <string name="intent_scheme">oauth</string>
     <string name="intent_host">cprest</string>
+    <string name="tweet">Tweet</string>
+    <string name="what_s_poppin_i_am_the_best_valorant_player_on_twitter_hmu_if_you_want_to_get_boosted_but_i_ain_t_gonna_be_free_i_also_want_to_watch_step_up_2_the_streets_but_no_one_else_wants_to_watch_it_with_me">what\'s poppin, i am the best valorant player on twitter. HMU if you want to get boosted but i ain\'t gonna be free. I also want to watch Step Up 2: the streets. But no one else wants to watch it with me...</string>
+    <string name="say_something">Say Something</string>
+    <string name="say_somethinga">Say Something...</string>
 
 </resources>
